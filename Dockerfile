@@ -25,4 +25,6 @@ RUN wget --no-verbose -O /tmp/chromedriver_linux64.zip https://chromedriver.stor
 
 RUN apt-get update -qqy \
 	&& apt-get -qqy install xvfb \
-	&& rm -rf /var/lib/apt/lists/* /var/cache/apt/*
+	&& rm -rf /var/lib/apt/lists/* /var/cache/apt/* \
+	&& Xvfb -ac :99 -screen 0 1280x1024x16 \
+        && export DISPLAY=:99
