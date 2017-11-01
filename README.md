@@ -10,4 +10,4 @@ Includes:
 * ChromeDriver 2.31
 * Xvfb
 
-Available on [Docker Hub](https://hub.docker.com/r/markhobson/maven-chrome/).
+Available on [Docker Hub](https://hub.docker.com/r/amitaarya17/docker-maven-chrome/).
